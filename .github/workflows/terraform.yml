@@ -42,6 +42,10 @@ jobs:
       - name: Terraform Init (Reconfigure)
         run: terraform init -reconfigure
 
+      - name: Terraform Destroy
+        env:
+          GZIP: "false"
+        run: terraform destroy -auto-approve
 
     #   - name: Terraform Plan
     #     run: terraform plan
@@ -50,9 +54,3 @@ jobs:
     #     env:
     #       GZIP: "false"
     #     run: terraform apply -auto-approve
-
-
-      - name: Terraform Destroy
-        env:
-          GZIP: "false"
-        run: terraform destroy -auto-approve
