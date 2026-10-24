@@ -12,6 +12,7 @@ env:
   S3_BUCKET: ${{ secrets.FRONTEND_BUCKET_NAME }}
   CLOUDFRONT_DIST_ID: ${{ secrets.CLOUDFRONT_DIST_ID }}
 
+  
 jobs:
   deploy:
     name: Upload to S3 and Invalidate CloudFront
