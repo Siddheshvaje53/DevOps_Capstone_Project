@@ -15,6 +15,7 @@ provider "aws" {
   region = var.aws_region
 }
 
+
 # -----------------------------
 # Frontend Hosting (S3 + CloudFront)
 # -----------------------------
