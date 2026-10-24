@@ -228,7 +228,7 @@ resource "aws_sns_topic" "devops_accelerator_upload_notify" {
 resource "aws_sns_topic_subscription" "devops_accelerator_email_sub" {
   topic_arn = aws_sns_topic.devops_accelerator_upload_notify.arn
   protocol  = "email"
-  endpoint  = var.notification_email
+  endpoint  = var.Notification_email
 }
 
 resource "aws_iam_policy" "devops_accelerator_lambda_sns_policy" {
