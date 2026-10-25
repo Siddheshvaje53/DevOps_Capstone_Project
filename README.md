@@ -1,4 +1,4 @@
-# DevOps_Capstone_Project End-to-End Cloud-Native Project
+# DevOps_Capstone_Project : End-to-End Cloud-Native Project
 
 A fully integrated DevOps project simulating real-world CI/CD workflows, infrastructure provisioning, monitoring, and automation.
 
