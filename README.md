@@ -461,14 +461,8 @@ If logs show file was processed, you should receive a confirmation email (via SN
 
 ---
 
-##  You're Done!
+## Author
 
-You’ve successfully deployed a **production-grade DevOps Accelerator**, with:
-
-*  Auto-scalable infrastructure (via Terraform)
-*  CI/CD pipelines (GitHub Actions)
-*  Lambda-powered backend (serverless)
-*  Frontend hosted via S3 + CloudFront
-*  Monitoring + Email notifications via CloudWatch + SNS
-
-*Happy DevOps-ing!*
+**Siddhesh Vaje**
+GitHub: https://github.com/Siddheshvaje53
+LinkedIn: www.linkedin.com/in/siddhesh-vaje
